@@ -1,0 +1,64 @@
+#!/usr/bin/env python
+import sys
+import re
+import unicodecsv as csv
+import unidecode
+from collections import defaultdict
+
+# uso:
+# ./create_table [products] [productos por venta]
+
+def process(r):
+    new_r = r.copy()
+    desc_gen, desc_adic = record['DescGen'], record['DescAdic']
+    desc_gen = unidecode.unidecode(desc_gen)
+    desc_adic = unidecode.unidecode(desc_adic).replace(desc_gen, '').strip()
+
+    parts = {'product': desc_gen, 'attributes': None}
+    attributes = [g.strip() for g in re.findall(r'(?:Accesorios|Accion|Altura|Anzuelo|Arbor|Aumentos|Cacha|Calibre|Capacidad|Capacidad/PSI|Caracteristicas|Color|Color/Desc|Densidad|Descripcion|Descripcion 1|Descripcion 2|Descripcion 3|Diam+DF|Diam/Varillas|Diametro|Est/Material|Estructura|Estuche|Extra|Extra1|Extra2|Funda|Grosor|Hoja|Lamparas|Largo|Lente|Libras|Linea|M|Material|Material/mm|Maximo|Medida|Modelo|Montura|Neoprene|Numero|Numero 1|Numero 2|Numero 3|Oculares/Objs|Orden|Pack|Pack/Medida|Parte|Personas|Peso|Pie|Piezas|Pilas|Plazas|Poste|Recipientes|Rulemanes|Secciones|Sexo|Tabla|Talle|Tamano|Tapa|Temperatura|Terminacion|Tipo|Tramo|Tramos|Tubitos|Uso|Utensilio):\s+[\s\w\-/.()+]+(?:\s+|$)', desc_adic)]
+    parts['attributes'] = [a.split(':') for a in attributes]
+    # record['ParsedDescAdic'] = dict([(p[0].strip(), p[1].strip()) for p in parts['attributes']])
+    record['ParsedDescAdic'] = [p[0].strip() for p in parts['attributes']]
+    return record
+
+if __name__ == '__main__':
+
+    with open(sys.argv[1], 'r') as csvfile:
+        reader = csv.DictReader(csvfile, delimiter=',', quotechar="'")
+        records = [process(record) for record in reader]
+
+    atributos_por_producto = dict()
+    for record in records:
+        atributos_por_producto[record['Prod_ID'].strip()] = record['ParsedDescAdic']
+
+    assert(atributos_por_producto['1210-3'] == ['Material', 'Numero', 'Orden'])
+    
+    productos_por_venta = defaultdict(list)
+    with open(sys.argv[2], 'r') as f:
+        for line in f.readlines():
+            fields = line.split(' // ')
+            venta_id, product_ids = int(fields[0]), [x.strip() for x in fields[1:]]
+            productos_por_venta[venta_id].extend(product_ids)
+
+    for (ventaid, productids) in productos_por_venta.iteritems():
+        productos_por_venta[ventaid] = sorted(list(set(productids)))
+
+    assert(productos_por_venta[3] == ['CHAR6002','CRO301','DRAGO2402','DRAGO2702','EXC-L2009','EXC-R2009','FERO2009','HER301','LYNX2102','RXR0.25MC','RXR0.30MC','RXR0.40AF','RXR0.40MC','RXR0.50MC','RXR0.60MC','RXR0.60N','SCORPIUS1952','SERIEBK2102','SERIEBK2402','TI2252','ZONDA1007'])
+    
+    productos_por_venta_con_atributos = defaultdict(dict)
+    for (ventaid, productids) in productos_por_venta.iteritems():
+        attributes = []
+        for prodid in productids:
+            attributes.extend(atributos_por_producto[prodid])
+        productos_por_venta_con_atributos[ventaid]['product_ids'] = productids
+        productos_por_venta_con_atributos[ventaid]['attributes'] = set(attributes) # sorted(attributes) # 
+
+    assert(productos_por_venta_con_atributos[59]['product_ids'] == ['1210-8', '92611-3'])
+    assert(productos_por_venta_con_atributos[59]['attributes'] == set(['Material', 'Numero', 'Orden']))
+    # assert(productos_por_venta_con_atributos[59]['attributes'] == ['Material', 'Material', 'Numero', 'Numero', 'Orden', 'Orden'])
+
+    # final output!
+    # venta_id,prod_id1,prod_id2,...,prod_idN,atributo1,atributo2,...,atributoN
+    for (ventaid, p) in productos_por_venta_con_atributos.iteritems():
+        print("%s,%s,%s" % (venta_id, ','.join(p['product_ids']), ','.join(p['attributes'])))
+        # print("%s,%s" % (ventaid, ','.join(p['product_ids'])))
