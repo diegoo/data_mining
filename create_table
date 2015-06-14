@@ -60,5 +60,5 @@ if __name__ == '__main__':
     # final output!
     # venta_id,prod_id1,prod_id2,...,prod_idN,atributo1,atributo2,...,atributoN
     for (ventaid, p) in productos_por_venta_con_atributos.iteritems():
-        print("%s,%s,%s" % (venta_id, ','.join(p['product_ids']), ','.join(p['attributes'])))
+        print("%s,%s,%s" % (ventaid, ','.join(p['product_ids']), ','.join(p['attributes'])))
         # print("%s,%s" % (ventaid, ','.join(p['product_ids'])))
