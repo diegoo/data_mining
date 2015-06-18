@@ -1,0 +1,39 @@
+#!/usr/bin/env python
+import sys
+import re
+import unicodecsv as csv
+import unidecode
+from collections import defaultdict
+
+# uso:
+# ./crear_tabla_de_transacciones [ventas.csv]
+
+def process(r):
+    desc_gen, desc_adic = r['DESCRIPCION_GENERICA'], r['DESCRIPCION_ADICIONAL']
+    return desc_adic.replace(desc_gen, '').strip()
+        
+if __name__ == '__main__':
+
+    # campos = ['VENTA_ID','RENGLON','FECHA','PROD_ID','DESCRIPCION_GENERICA','DESCRIPCION_ADICIONAL','CATEGORIA_DESCRIPCION','SUBCATEGORIA_DESCRIPCION','CLIENTE_NOMBRE','CLIENTE_LUGAR','CLIENTE_PROVINCIA']
+    
+    with open(sys.argv[1], 'r') as csvfile:
+        reader = csv.DictReader(csvfile, delimiter=',', quotechar='"')
+        ventas = [r for r in reader]
+
+    ventas_agrupadas_por_id = defaultdict(list)
+    for v in ventas:
+        ventas_agrupadas_por_id[int(v['VENTA_ID'])].append(v)
+
+    tabla = []
+    for (venta_id, r) in ventas_agrupadas_por_id.iteritems():
+        registro = [venta_id, r[0]['CLIENTE_NOMBRE'], r[0]['CLIENTE_LUGAR'], r[0]['CLIENTE_PROVINCIA']]
+        for x in r:            
+            registro.extend([x['DESCRIPCION_GENERICA']])
+            desc_adic = process(x)
+            if desc_adic: registro.extend([desc_adic])
+            registro.extend([x['CATEGORIA_DESCRIPCION']])
+            registro.extend([x['SUBCATEGORIA_DESCRIPCION']])
+        tabla.append(registro)
+
+    for r in tabla:
+        print(','.join([u"'%s'" % x for x in r]))
