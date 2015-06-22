@@ -1,0 +1,59 @@
+********************************************************************************
+mysql -uroot -proot TP1_DM -e 'select v.Venta_ID as venta_id, p.Cat_ID as categoria, vp.Cantidad_UM1 as cantidad, if(vp.Cantidad_UM1 > 0, vp.Cantidad_UM1 * ps.Precio, ps.Precio) as monto_total from TP_Ventas v join TP_Ventas_Prod vp on v.Venta_ID = vp.Venta_ID join TP_Productos p on vp.Prod_ID = p.Prod_ID join TP_Precio_Sugerido ps on p.Prod_ID = ps.Prod_ID group by v.Venta_ID, p.Cat_ID' | sed 's/\t/,/g' > monto.por.categoria.por.venta.csv
+
+
+
+
+
+select v.Venta_ID, v.Venta_Fecha, v.CLI_ID, vp.Prod_ID, p.DescGen, ps.Precio from TP_Ventas v join TP_Ventas_Prod vp on v.Venta_ID = vp.Venta_ID join TP_Productos p on vp.Prod_ID = p.Prod_ID join TP_Precio_Sugerido ps on p.Prod_ID = ps.Prod_ID where v.venta_id = 1;
+
+
+png('precio.total.por.venta.histograma.png')
+hist(v$precio_total, xlab='precio total', main="precio total por venta", breaks=40, axes=FALSE)
+axis(1, seq(0, 40000, by = 2000))
+dev.off()
+
+
+
+select v.Venta_ID, p.Prod_ID, vp.Cantidad_UM1, ps.Precio from TP_Ventas v join TP_Ventas_Prod vp on v.Venta_ID = vp.Venta_ID join TP_Productos p on vp.Prod_ID = p.Prod_ID join TP_Precio_Sugerido ps on p.Prod_ID = ps.Prod_ID where v.venta_id = 1;
+
+
+select v.Venta_ID, group_concat(p.Prod_ID), group_concat(vp.Cantidad_UM1), group_concat(ps.Precio), group_concat(ps.Precio * vp.Cantidad_UM1), sum(ps.Precio * vp.Cantidad_UM1) from TP_Ventas v join TP_Ventas_Prod vp on v.Venta_ID = vp.Venta_ID join TP_Productos p on vp.Prod_ID = p.Prod_ID join TP_Precio_Sugerido ps on p.Prod_ID = ps.Prod_ID group by v.Venta_ID order by 6 DESC;
+
+
+select v.CLI_ID, vp.Prod_ID, vp.Cantidad_UM1, p.Cat_ID, p.SubCat_ID, ps.Precio from TP_Ventas v join TP_Ventas_Prod vp on v.Venta_ID = vp.Venta_ID join TP_Productos p on vp.Prod_ID = p.Prod_ID join TP_Precio_Sugerido ps on p.Prod_ID = ps.Prod_ID;
+
+  067842 | CAMP   |            2 |    138 |
+| 067842 | CAMP   |            2 |    244 |
+| 067842 | CAMP   |            3 |    126 |
+| 067842 | CAMP   |            2 |    407 |
+| 067842 | CAMP   |            1 |    629 |
+| 067842 | CAMP   |            1 |    893 |
+| 067842 | CAMP   |            1 |    629 |
+| 067842 | CAMP   |            2 |    516 
+
++--------+--------+----------------------+----------------------------------+
+| CLI_ID | Cat_ID | sum(vp.Cantidad_UM1) | sum(ps.Precio * vp.Cantidad_UM1) |
++--------+--------+----------------------+----------------------------------+
+| 067842 | CAMP   |                   14 |                             5139 |
+| 067842 | INDU   |                   14 |                             2741 |
+| 067842 | OPTI   |                    7 |                             5131 |
+| 067842 | PESC   |                    4 |                             1592 |
+| 067842 | PESP   |                   98 |                             4526 |
+| 067842 | PESR   |                    9 |                             2616 |
+| 067842 | TIRO   |                   17 |                             1473
+
+
+precio total por categoría para cada cliente:
+select v.CLI_ID, p.Cat_ID, sum(vp.Cantidad_UM1), sum(ps.Precio * vp.Cantidad_UM1) from TP_Ventas v join TP_Ventas_Prod vp on v.Venta_ID = vp.Venta_ID join TP_Productos p on vp.Prod_ID = p.Prod_ID join TP_Precio_Sugerido ps on p.Prod_ID = ps.Prod_ID where v.CLI_ID = 067842 group by v.CLI_ID, p.CAT_ID;
+
+ranking clientes
+select a.cliente, sum(a.precio_total) as total from (select v.CLI_ID as cliente, p.Cat_ID as categoria, sum(ps.Precio * vp.Cantidad_UM1) as precio_total from TP_Ventas v join TP_Ventas_Prod vp on v.Venta_ID = vp.Venta_ID join TP_Productos p on vp.Prod_ID = p.Prod_ID join TP_Precio_Sugerido ps on p.Prod_ID = ps.Prod_ID where v.CLI_ID = 067842 group by v.CLI_ID, p.CAT_ID) a;
+
+
+monto por categoria por venta
+select v.Venta_ID, p.Cat_ID, vp.Cantidad_UM1, vp.Cantidad_UM1 * ps.Precio from TP_Ventas v join TP_Ventas_Prod vp on v.Venta_ID = vp.Venta_ID join TP_Productos p on vp.Prod_ID = p.Prod_ID join TP_Precio_Sugerido ps on p.Prod_ID = ps.Prod_ID group by v.Venta_ID, p.Cat_ID;
+
+# corregido para venta por millar < 1000
+select v.Venta_ID, p.Cat_ID, vp.Cantidad_UM1, if(vp.Cantidad_UM1 > 0, vp.Cantidad_UM1 * ps.Precio, ps.Precio) from TP_Ventas v join TP_Ventas_Prod vp on v.Venta_ID = vp.Venta_ID join TP_Productos p on vp.Prod_ID = p.Prod_ID join TP_Precio_Sugerido ps on p.Prod_ID = ps.Prod_ID group by v.Venta_ID, p.Cat_ID;
+
