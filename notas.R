@@ -339,3 +339,25 @@ plot(reglas_ordenadas_por_lift_10, method="graph")
 9  {PESR_muchisimo} => {PESP_medio} 0.002234637  0.3111111  8.087598
 10 {CAMP_medio,                                                     
     PESC_medio}     => {PESR_medio} 0.002553871  0.3478261  8.011509
+
+
+
+
+> itemFrequency(transacciones, type = "relative")
+         CAMP_medio          CAMP_mucho           CAMP_poco          CUCH_medio 
+       0.1901116427        0.2143540670        0.1518341308        0.0063795853 
+         CUCH_mucho           CUCH_poco          INDP_medio          INDP_mucho 
+       0.0014354067        0.0352472089        0.0562998405        0.0283891547 
+          INDP_poco          INDU_medio          INDU_mucho           INDU_poco 
+       0.0384370016        0.0481658692        0.0218500797        0.0580542265 
+         INST_medio          INST_mucho           INST_poco monto_por_categoria 
+       0.0027113238        0.0003189793        0.0213716108        0.0001594896 
+         OPTI_medio          OPTI_mucho           OPTI_poco          PESC_medio 
+       0.1145135566        0.0574162679        0.0850079745        0.1047846890 
+         PESC_mucho           PESC_poco          PESP_medio          PESP_mucho 
+       0.0634768740        0.0615629984        0.1212121212        0.0944178628 
+          PESP_poco          PESR_medio          PESR_mucho           PESR_poco 
+       0.1143540670        0.0912280702        0.0510366826        0.0783094099 
+         TIRO_medio          TIRO_mucho           TIRO_poco 
+       0.0285486443        0.0084529506        0.0543859649 
+> 
