@@ -1,29 +1,29 @@
 SELECT a.cliente, a.categoria, FLOOR(SUM(a.monto)) as monto_total
 	FROM
-		(SELECT v.Venta_ID as venta_id, c.CLI_ID AS cliente, p.Cat_id AS categoria, SUM(vp.Cantidad_UM1 * ps.Precio) AS monto
+		(SELECT c.CLI_ID AS cliente, p.Cat_id AS categoria, SUM(vp.Cantidad_UM1 * ps.Precio) AS monto
 			FROM TP_Clientes c
 			        JOIN TP_Ventas v ON c.CLI_ID = v.CLI_ID 
 				JOIN TP_Ventas_Prod vp ON v.Venta_ID = vp.Venta_ID
 				JOIN TP_Productos p ON vp.Prod_ID = p.Prod_ID
 				JOIN TP_Precio_Sugerido ps ON p.Prod_ID = ps.Prod_ID
 			WHERE (vp.Cantidad_UM1 > 0)
-			AND YEAR(v.Venta_FECHA) = 2015
-			GROUP BY v.Venta_ID, p.Cat_ID
+			AND YEAR(v.Venta_FECHA) = 2014
+			GROUP BY c.CLI_ID, p.Cat_ID
 		UNION ALL
-		SELECT v.Venta_ID as venta_id, c.CLI_ID AS cliente, p.Cat_id AS categoria, SUM((vp.Cantidad_UM2 / 1000) * ps.Precio) AS monto
+		SELECT c.CLI_ID AS cliente, p.Cat_id AS categoria, SUM((vp.Cantidad_UM2 / 1000) * ps.Precio) AS monto
 			FROM TP_Clientes c
 			        JOIN TP_Ventas v ON c.CLI_ID = v.CLI_ID 
 				JOIN TP_Ventas_Prod vp ON v.Venta_ID = vp.Venta_ID
 				JOIN TP_Productos p ON vp.Prod_ID = p.Prod_ID
 				JOIN TP_Precio_Sugerido ps ON p.Prod_ID = ps.Prod_ID
 			WHERE (vp.Cantidad_UM1 = 0 and vp.Cantidad_UM2 > 0)
-			AND YEAR(v.Venta_FECHA) = 2015
-			GROUP BY v.Venta_ID, p.Cat_ID) a
-	GROUP BY a.venta_id, a.categoria ORDER BY a.venta_id, a.categoria;
+			AND YEAR(v.Venta_FECHA) = 2014
+			GROUP BY c.CLI_ID, p.Cat_ID) a
+	GROUP BY a.cliente, a.categoria ORDER BY a.cliente, a.categoria;
 
 --------------------------------------------------------------------------------
 
-d <- read.csv('tabla.punto.d.2015.csv', header=TRUE)
+d <- read.csv('2015.1.csv', header=TRUE)
 d$cliente <- as.factor(d$cliente)
 d$categoria <- as.factor(d$categoria)
 d$monto_total <- as.numeric(d$monto_total)
@@ -31,8 +31,21 @@ summary(d)
 
 library(arules)
 
-d$monto_total <- discretize(d$monto_total, method="fixed", categories = c(0,2500,10000,Inf), labels=c('poco', 'medio', 'mucho'))
+puntos_de_corte <- quantile(d$monto_total, probs = c(0, 0.33, 0.66))
+
+# 2014
+#      0%      33%      66% 
+#     0.00   4000.72  16134.02
+
+# 2015
+#      0%      33%      66% 
+#    0.00    3615.84  13127.92 
+d$monto_total <- discretize(d$monto_total, method="fixed", categories = c(0,3600,13000,Inf), labels=c('poco', 'medio', 'mucho'))
 d$monto_por_categoria <- paste(d$categoria, d$monto_total, sep="_")
 d$monto_total <- NULL
 d$categoria <- NULL
-write.csv(d, "monto.por.cliente.por.categoria.2015.csv", row.names=FALSE, quote=FALSE)
+write.csv(d, "2015.2.csv", row.names=FALSE, quote=FALSE)
+
+
+
+
