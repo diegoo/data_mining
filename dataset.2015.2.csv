@@ -1,0 +1,438 @@
+cli_id;cat_desc;sit_iva_id;cli_prv;vta;tran;CAMPNG;PESCA.1;OPTICA.1;PESCA.CA.AS;PESCA.REELS.1;INDU;INDU.Y.PESCA;TIRO.Y.DEF;CUCHILL;INSTRU;venta:freq
+67111;CAMPING;A;Buenos Aires;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_mucho;PESC_mucho;PESR_mucho;;;TIRO_medio;;;AA
+67126;CAMPING;A;Buenos Aires;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;;OPTI_mucho;;PESR_medio;INDU_medio;;;;;MA
+67197;CAMPING;B;Mendoza;VTA_BAJO;TRAN_BAJO;CAMP_poco;PESP_medio;;;;INDU_poco;;;;;BB
+67207;CAMPING;A;Capital Federal;VTA_BAJO;TRAN_BAJO;CAMP_mucho;;;;;;;;;;BB
+67214;CAMPING;A;Córdoba;VTA_MEDIO;TRAN_BAJO;CAMP_mucho;;;;;INDU_medio;;;;;MB
+67218;PESCA CAÑAS;A;Buenos Aires;VTA_MEDIO;TRAN_ALTO;CAMP_medio;PESP_medio;;PESC_mucho;PESR_mucho;;;;;;MA
+67220;OPTICA;B;Santa Fe;VTA_BAJO;TRAN_BAJO;;;OPTI_mucho;;;;;;;;BB
+67228;PESCA CAÑAS;A;Buenos Aires;VTA_BAJO;TRAN_BAJO;;;;PESC_poco;PESR_poco;;;;;;BB
+67235;INSTRUMENTAL;A;Río Negro;VTA_MEDIO;TRAN_ALTO;CAMP_poco;PESP_poco;;PESC_medio;PESR_medio;INDU_poco;;TIRO_poco;;INST_poco;MA
+67236;OPTICA;A;Santa Fe;VTA_MEDIO;TRAN_ALTO;;;OPTI_mucho;;;;;;;INST_poco;MA
+67248;CAMPING;A;Mendoza;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;;;;;;;;;;MA
+67258;CAMPING;A;Buenos Aires;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_medio;OPTI_medio;;;INDU_poco;INDP_mucho;TIRO_poco;;;AA
+67261;CAMPING;A;Capital Federal;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_medio;OPTI_medio;PESC_mucho;PESR_mucho;INDU_mucho;INDP_medio;TIRO_medio;CUCH_poco;;AA
+67263;CAMPING;A;Santa Cruz;VTA_MEDIO;TRAN_ALTO;CAMP_poco;;;;;INDU_medio;INDP_mucho;;;;MA
+67278;OPTICA;A;Buenos Aires;VTA_BAJO;TRAN_ALTO;;;OPTI_mucho;;;;;;;;BA
+67286;CAMPING;A;Buenos Aires;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;;;;;;INDP_medio;TIRO_medio;;;MA
+67287;CAMPING;A;Neuquén;VTA_BAJO;TRAN_BAJO;CAMP_poco;;;;;INDU_medio;;;;;BB
+67297;OPTICA;A;Santa Cruz;VTA_MEDIO;TRAN_BAJO;;PESP_poco;OPTI_poco;PESC_medio;PESR_medio;;;;;;MB
+67305;PESCA CAÑAS;A;Buenos Aires;VTA_BAJO;TRAN_BAJO;;PESP_poco;;PESC_medio;;;;;;;BB
+67313;CAMPING;A;Córdoba;VTA_BAJO;TRAN_BAJO;CAMP_poco;;OPTI_medio;;;;;;;;BB
+67314;PESCA;B;Santa Cruz;VTA_MEDIO;TRAN_ALTO;;PESP_mucho;;PESC_poco;PESR_medio;;;;;;MA
+67330;INSTRUMENTAL;A;Entre Ríos;VTA_BAJO;TRAN_BAJO;;;OPTI_medio;;;;;TIRO_medio;;INST_poco;BB
+67340;CAMPING;A;Capital Federal;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;;;;;;INDP_poco;TIRO_poco;;;MA
+67344;OPTICA;A;Capital Federal;VTA_ALTO;TRAN_ALTO;CAMP_mucho;;OPTI_mucho;;;;;;;;AA
+67348;CAMPING;B;Chubut;VTA_BAJO;TRAN_BAJO;CAMP_poco;PESP_medio;;PESC_poco;PESR_poco;INDU_poco;;;;;BB
+67353;CAMPING;B;Buenos Aires;VTA_MEDIO;TRAN_ALTO;CAMP_medio;PESP_medio;OPTI_poco;PESC_poco;PESR_medio;INDU_poco;INDP_poco;TIRO_poco;;;MA
+67372;CAMPING;A;Entre Ríos;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;PESP_medio;OPTI_medio;PESC_medio;PESR_medio;INDU_medio;;;;;MA
+67373;CAMPING;A;Neuquén;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;;;;;INDU_poco;;;;;MA
+67379;PESCA;A;Capital Federal;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;;PESC_mucho;PESR_mucho;INDU_medio;;;CUCH_poco;;AA
+67401;PESCA CAÑAS;B;Jujuy;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;;PESC_mucho;PESR_medio;;INDP_medio;;;;AA
+67408;CAMPING;B;Buenos Aires;VTA_MEDIO;TRAN_ALTO;CAMP_medio;PESP_poco;;PESC_medio;PESR_medio;;INDP_poco;;;;MA
+67416;PESCA;A;Tucumán;VTA_MEDIO;TRAN_ALTO;;PESP_mucho;;PESC_medio;PESR_medio;;;;;;MA
+67422;OPTICA;A;Capital Federal;VTA_ALTO;TRAN_ALTO;;;OPTI_mucho;;;;;;;;AA
+67423;INDUMENTARIA;A;Mendoza;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;;;;;INDU_medio;;;;;MA
+67444;OPTICA;B;Entre Ríos;VTA_BAJO;TRAN_BAJO;;;OPTI_poco;;;;;;;;BB
+67456;CAMPING;A;Buenos Aires;VTA_BAJO;TRAN_BAJO;CAMP_poco;PESP_poco;OPTI_poco;;PESR_poco;;INDP_poco;;;;BB
+67458;CAMPING;A;Mendoza;VTA_ALTO;TRAN_ALTO;CAMP_mucho;;;PESC_poco;;;;;;;AA
+67473;CAMPING;A;Córdoba;VTA_BAJO;TRAN_BAJO;CAMP_poco;PESP_poco;;;;INDU_medio;;;CUCH_poco;;BB
+67485;CAMPING;A;Formosa;VTA_BAJO;TRAN_BAJO;CAMP_poco;;OPTI_poco;;;;;;CUCH_poco;;BB
+67487;CAMPING;A;La Pampa;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;PESP_poco;;;;;;;;;MA
+67489;PESCA;A;Río Negro;VTA_BAJO;TRAN_BAJO;;PESP_mucho;;;;;;;;;BB
+67501;CAMPING;A;Buenos Aires;VTA_BAJO;TRAN_BAJO;CAMP_medio;;;;;;;;;;BB
+67503;INDUMENTARIA PESCA;A;Mendoza;VTA_BAJO;TRAN_BAJO;;;;;PESR_poco;;INDP_poco;;;;BB
+67516;OPTICA;A;Córdoba;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_medio;PESC_mucho;PESR_mucho;;;;;;AA
+67543;CAMPING;A;Santa Fe;VTA_BAJO;TRAN_ALTO;CAMP_poco;PESP_medio;;;;;;TIRO_poco;CUCH_poco;;BA
+67564;OPTICA;A;Buenos Aires;VTA_MEDIO;TRAN_BAJO;;;OPTI_mucho;;;;;;;;MB
+67573;CAMPING;A;Río Negro;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_poco;PESC_medio;PESR_poco;INDU_medio;;TIRO_poco;CUCH_medio;;AA
+67587;CAMPING;A;Buenos Aires;VTA_ALTO;TRAN_ALTO;CAMP_mucho;;OPTI_poco;PESC_medio;;INDU_mucho;;TIRO_poco;CUCH_poco;;AA
+67603;INDUMENTARIA PESCA;A;Santiago del Estero;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_poco;PESC_mucho;PESR_mucho;INDU_mucho;INDP_medio;TIRO_medio;;;AA
+67612;CAMPING;A;Misiones;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_poco;PESC_medio;PESR_medio;;;TIRO_medio;;;AA
+67626;CAMPING;A;Capital Federal;VTA_BAJO;TRAN_BAJO;CAMP_poco;;OPTI_poco;;;;;;;INST_poco;BB
+67639;CAMPING;A;Santa Fe;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;;OPTI_poco;;;;;TIRO_poco;;;MA
+67640;CAMPING;A;Buenos Aires;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;;;;;;INDP_medio;;;;MA
+67644;PESCA CAÑAS;B;Salta;VTA_MEDIO;TRAN_ALTO;;PESP_medio;;PESC_mucho;PESR_medio;;;;;;MA
+67646;CAMPING;A;Chaco;VTA_ALTO;TRAN_ALTO;CAMP_medio;;;;;INDU_mucho;;;;;AA
+67648;PESCA CAÑAS;A;Buenos Aires;VTA_BAJO;TRAN_BAJO;;PESP_poco;;PESC_poco;PESR_poco;;;;;;BB
+67654;CAMPING;B;Buenos Aires;VTA_BAJO;TRAN_ALTO;CAMP_poco;PESP_medio;;PESC_medio;PESR_poco;INDU_poco;INDP_poco;;;;BA
+67656;INDUMENTARIA PESCA;A;Santa Cruz;VTA_ALTO;TRAN_ALTO;CAMP_medio;PESP_mucho;;;PESR_mucho;;INDP_medio;;;;AA
+67671;OPTICA;A;Capital Federal;VTA_MEDIO;TRAN_ALTO;;;OPTI_mucho;;;INDU_poco;INDP_poco;;;;MA
+67672;PESCA CAÑAS;A;Misiones;VTA_MEDIO;TRAN_BAJO;;PESP_medio;;PESC_mucho;PESR_medio;;;;;;MB
+67684;CAMPING;A;Capital Federal;VTA_ALTO;TRAN_ALTO;CAMP_mucho;;;;;;;;;;AA
+67689;PESCA CAÑAS;B;La Pampa;VTA_BAJO;TRAN_BAJO;;PESP_medio;;PESC_poco;PESR_poco;;;;;;BB
+67713;CAMPING;A;Córdoba;VTA_MEDIO;TRAN_BAJO;CAMP_mucho;;;;;;;;;;MB
+67714;CUCHILLERÍA;A;Capital Federal;VTA_BAJO;TRAN_BAJO;;;;;;;;;CUCH_poco;;BB
+67731;CAMPING;B;Buenos Aires;VTA_MEDIO;TRAN_BAJO;CAMP_mucho;PESP_medio;;PESC_medio;PESR_poco;;;;;;MB
+67743;CAMPING;A;Buenos Aires;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;PESP_poco;OPTI_medio;PESC_poco;PESR_poco;INDU_medio;;TIRO_poco;CUCH_poco;INST_poco;MA
+67755;CAMPING;A;Santa Fe;VTA_BAJO;TRAN_BAJO;CAMP_poco;PESP_poco;;;PESR_poco;;;;;;BB
+67758;CAMPING;B;Santa Cruz;VTA_MEDIO;TRAN_ALTO;CAMP_medio;PESP_medio;;;PESR_poco;INDU_poco;INDP_poco;;;;MA
+67772;CAMPING;A;Mendoza;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_mucho;PESC_mucho;PESR_mucho;INDU_mucho;INDP_mucho;TIRO_mucho;CUCH_poco;INST_poco;AA
+67774;CAMPING;A;Neuquén;VTA_MEDIO;TRAN_BAJO;CAMP_mucho;;;;;;;;;;MB
+67783;PESCA CAÑAS;A;Neuquén;VTA_BAJO;TRAN_BAJO;CAMP_poco;PESP_poco;;PESC_poco;PESR_poco;;;;;;BB
+67785;CAMPING;A;Neuquén;VTA_MEDIO;TRAN_ALTO;CAMP_medio;PESP_medio;;PESC_medio;PESR_poco;;;;;;MA
+67793;OPTICA;A;Chubut;VTA_BAJO;TRAN_ALTO;;PESP_medio;OPTI_poco;PESC_medio;PESR_medio;;;;;;BA
+67801;CAMPING;A;Mendoza;VTA_MEDIO;TRAN_BAJO;CAMP_medio;;;;;INDU_medio;;;;;MB
+67804;CAMPING;A;Entre Ríos;VTA_BAJO;TRAN_BAJO;CAMP_poco;;OPTI_poco;PESC_medio;;;;;CUCH_poco;;BB
+67805;CAMPING;A;Santiago del Estero;VTA_MEDIO;TRAN_BAJO;CAMP_medio;PESP_medio;OPTI_poco;PESC_medio;PESR_medio;INDU_poco;INDP_poco;;CUCH_poco;INST_poco;MB
+67842;CAMPING;B;Buenos Aires;VTA_BAJO;TRAN_BAJO;CAMP_poco;PESP_poco;;;PESR_poco;;;;;;BB
+67846;CAMPING;A;Río Negro;VTA_MEDIO;TRAN_BAJO;CAMP_medio;PESP_mucho;;PESC_poco;PESR_poco;;;;;;MB
+67849;PESCA CAÑAS;A;Chubut;VTA_MEDIO;TRAN_BAJO;;PESP_mucho;;PESC_medio;PESR_poco;;;;;;MB
+67864;CAMPING;A;Capital Federal;VTA_BAJO;TRAN_BAJO;CAMP_poco;PESP_poco;OPTI_medio;;;;;;;;BB
+67884;INDUMENTARIA;A;Buenos Aires;VTA_ALTO;TRAN_BAJO;;PESP_medio;;PESC_mucho;PESR_mucho;INDU_medio;;;;;AB
+67900;PESCA;A;Mendoza;VTA_MEDIO;TRAN_ALTO;CAMP_poco;PESP_mucho;;;;INDU_poco;;TIRO_poco;;;MA
+67928;CAMPING;A;Buenos Aires;VTA_ALTO;TRAN_ALTO;CAMP_mucho;;;;;INDU_medio;;;CUCH_poco;;AA
+67934;INDUMENTARIA;A;Capital Federal;VTA_ALTO;TRAN_ALTO;;;;;;INDU_mucho;;;;;AA
+67944;CAMPING;A;Catamarca;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;PESP_medio;OPTI_poco;PESC_medio;PESR_medio;;;;CUCH_poco;;MA
+67945;CAMPING;B;La Rioja;VTA_ALTO;TRAN_ALTO;CAMP_poco;PESP_medio;;PESC_mucho;PESR_mucho;;;TIRO_poco;;;AA
+67965;PESCA CAÑAS;A;Capital Federal;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_medio;OPTI_mucho;PESC_mucho;PESR_mucho;INDU_mucho;;TIRO_mucho;;INST_medio;AA
+67995;OPTICA;A;Buenos Aires;VTA_BAJO;TRAN_ALTO;;;OPTI_medio;;;;;;;;BA
+68001;OPTICA;A;Buenos Aires;VTA_MEDIO;TRAN_BAJO;;;OPTI_mucho;PESC_poco;PESR_poco;;;;;;MB
+68010;PESCA CAÑAS;B;Santa Fe;VTA_BAJO;TRAN_BAJO;;PESP_medio;;PESC_poco;;;;;;;BB
+68018;OPTICA;A;Córdoba;VTA_BAJO;TRAN_BAJO;;;OPTI_medio;;;;;;;;BB
+68054;CAMPING;A;Buenos Aires;VTA_BAJO;TRAN_BAJO;CAMP_poco;;OPTI_medio;;;;;;;;BB
+68056;PESCA;A;Salta;VTA_MEDIO;TRAN_BAJO;;PESP_mucho;;;;;;;;;MB
+68067;CAMPING;A;Capital Federal;VTA_MEDIO;TRAN_ALTO;CAMP_medio;PESP_medio;;PESC_medio;PESR_medio;INDU_poco;;TIRO_poco;CUCH_poco;;MA
+68078;CAMPING;A;Córdoba;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_mucho;PESC_medio;;;INDP_mucho;TIRO_medio;;;AA
+68131;CAMPING;B;Río Negro;VTA_BAJO;TRAN_ALTO;CAMP_medio;;;PESC_medio;PESR_medio;;;;;;BA
+68179;PESCA;B;Corrientes;VTA_ALTO;TRAN_ALTO;;PESP_mucho;;;;;;TIRO_poco;;;AA
+68183;CAMPING;A;Buenos Aires;VTA_BAJO;TRAN_BAJO;CAMP_poco;;OPTI_medio;;;INDU_poco;INDP_poco;;;;BB
+68209;PESCA REELS;A;Córdoba;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_mucho;PESC_mucho;PESR_mucho;INDU_mucho;INDP_mucho;TIRO_medio;CUCH_mucho;;AA
+68235;PESCA CAÑAS;B;Río Negro;VTA_MEDIO;TRAN_ALTO;;PESP_medio;;PESC_poco;PESR_mucho;;;;;;MA
+68252;CAMPING;A;Salta;VTA_BAJO;TRAN_BAJO;CAMP_poco;;OPTI_medio;;;;;;;;BB
+68265;OPTICA;B;Buenos Aires;VTA_BAJO;TRAN_BAJO;;PESP_poco;OPTI_poco;PESC_poco;PESR_poco;;;;;;BB
+68299;CAMPING;B;Córdoba;VTA_BAJO;TRAN_BAJO;CAMP_poco;;;;;;;;;;BB
+68314;PESCA;A;Buenos Aires;VTA_BAJO;TRAN_BAJO;;PESP_medio;;;;;;;;;BB
+68347;CAMPING;A;Capital Federal;VTA_MEDIO;TRAN_ALTO;CAMP_poco;;OPTI_mucho;PESC_medio;PESR_poco;;;;;;MA
+68353;CAMPING;A;Neuquén;VTA_BAJO;TRAN_BAJO;CAMP_poco;;;;;INDU_poco;;;;;BB
+68361;INDUMENTARIA PESCA;A;Neuquén;VTA_MEDIO;TRAN_ALTO;CAMP_medio;PESP_medio;OPTI_mucho;;;INDU_poco;INDP_mucho;;;;MA
+68365;CAMPING;A;Capital Federal;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_medio;OPTI_poco;;;INDU_medio;INDP_medio;TIRO_poco;CUCH_mucho;;AA
+68374;CAMPING;A;Neuquén;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;;;;;;;;;;MA
+68431;CAMPING;A;Capital Federal;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_poco;OPTI_mucho;;;INDU_mucho;INDP_poco;TIRO_poco;CUCH_poco;;AA
+68465;CAMPING;B;Mendoza;VTA_BAJO;TRAN_BAJO;CAMP_medio;PESP_poco;;PESC_medio;;INDU_poco;;;;;BB
+68491;PESCA CAÑAS;A;La Pampa;VTA_BAJO;TRAN_BAJO;;PESP_medio;;PESC_medio;PESR_poco;;;;;;BB
+68494;CAMPING;A;Buenos Aires;VTA_MEDIO;TRAN_BAJO;CAMP_poco;PESP_medio;;PESC_medio;PESR_medio;;;;;;MB
+68500;PESCA CAÑAS;A;Buenos Aires;VTA_BAJO;TRAN_BAJO;;;;PESC_medio;;;;;;;BB
+68556;CAMPING;A;Capital Federal;VTA_BAJO;TRAN_BAJO;CAMP_poco;;OPTI_medio;;;;;;;;BB
+68561;CUCHILLERÍA;E;Tierra del Fuego;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_poco;PESC_mucho;PESR_mucho;;INDP_medio;TIRO_medio;CUCH_medio;;AA
+68573;PESCA;A;Buenos Aires;VTA_BAJO;TRAN_BAJO;;PESP_medio;;;;;;;;;BB
+68601;CAMPING;A;San Juan;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_medio;PESC_mucho;PESR_mucho;INDU_medio;INDP_medio;;CUCH_poco;;AA
+68602;CAMPING;A;Buenos Aires;VTA_MEDIO;TRAN_ALTO;CAMP_medio;PESP_medio;;PESC_mucho;PESR_mucho;;;TIRO_medio;CUCH_poco;;MA
+68619;CAMPING;A;Jujuy;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_poco;PESC_medio;;INDU_medio;INDP_poco;TIRO_mucho;CUCH_poco;;AA
+68626;CAMPING;A;Capital Federal;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_medio;;PESC_medio;PESR_medio;;INDP_mucho;;CUCH_poco;;AA
+68637;OPTICA;A;Capital Federal;VTA_BAJO;TRAN_BAJO;;;OPTI_medio;;;;;;;;BB
+68657;CAMPING;A;Capital Federal;VTA_MEDIO;TRAN_ALTO;CAMP_medio;;OPTI_mucho;;;;;;;;MA
+68685;OPTICA;B;Buenos Aires;VTA_BAJO;TRAN_BAJO;;;OPTI_medio;;;;;;;;BB
+68715;PESCA CAÑAS;A;Buenos Aires;VTA_ALTO;TRAN_ALTO;CAMP_medio;PESP_mucho;OPTI_medio;PESC_mucho;PESR_mucho;INDU_poco;;;;;AA
+68727;CAMPING;A;Capital Federal;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_poco;OPTI_mucho;PESC_medio;PESR_medio;INDU_mucho;INDP_medio;TIRO_mucho;;;AA
+68742;CAMPING;B;La Pampa;VTA_BAJO;TRAN_BAJO;CAMP_poco;PESP_medio;OPTI_poco;PESC_medio;PESR_poco;;;;CUCH_poco;;BB
+68744;OPTICA;A;Buenos Aires;VTA_BAJO;TRAN_ALTO;;;OPTI_medio;;;;;;;;BA
+68750;OPTICA;A;Buenos Aires;VTA_BAJO;TRAN_BAJO;;PESP_poco;OPTI_medio;;;;;;;;BB
+68769;CAMPING;A;Capital Federal;VTA_ALTO;TRAN_ALTO;CAMP_poco;;OPTI_mucho;;;;;;;;AA
+68778;PESCA;A;Neuquén;VTA_BAJO;TRAN_BAJO;;PESP_medio;;;PESR_poco;;;;;;BB
+68789;CAMPING;A;Capital Federal;VTA_MEDIO;TRAN_BAJO;CAMP_medio;;OPTI_mucho;;;;;;;;MB
+68828;CAMPING;A;Neuquén;VTA_ALTO;TRAN_ALTO;CAMP_medio;PESP_mucho;;PESC_mucho;PESR_medio;INDU_medio;INDP_mucho;;;;AA
+68896;CAMPING;A;Buenos Aires;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_poco;OPTI_poco;;;INDU_medio;INDP_medio;TIRO_poco;CUCH_poco;;AA
+68907;CAMPING;A;Santa Fe;VTA_ALTO;TRAN_ALTO;CAMP_mucho;;;;;INDU_medio;INDP_medio;;;;AA
+68943;PESCA CAÑAS;B;Capital Federal;VTA_BAJO;TRAN_BAJO;;;;PESC_poco;PESR_poco;;;;;;BB
+68975;CAMPING;A;Capital Federal;VTA_MEDIO;TRAN_BAJO;CAMP_mucho;;;;;INDU_poco;INDP_poco;;;;MB
+69023;CAMPING;A;La Pampa;VTA_MEDIO;TRAN_BAJO;CAMP_medio;PESP_medio;;PESC_medio;PESR_medio;INDU_poco;;;;;MB
+69032;CAMPING;A;Río Negro;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;PESP_medio;;;;;INDP_medio;TIRO_poco;;;MA
+69080;TIRO Y DEFENSA;A;Santa Fe;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_mucho;;PESR_medio;;;TIRO_mucho;;;AA
+69089;OPTICA;B;Capital Federal;VTA_MEDIO;TRAN_ALTO;;;OPTI_mucho;;;;;;;;MA
+69097;CAMPING;A;Buenos Aires;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;;PESC_mucho;PESR_mucho;INDU_mucho;INDP_poco;TIRO_poco;CUCH_poco;;AA
+69100;CAMPING;B;Santiago del Estero;VTA_BAJO;TRAN_BAJO;CAMP_medio;PESP_poco;;;;INDU_poco;;TIRO_poco;;;BB
+69125;INDUMENTARIA;A;Buenos Aires;VTA_BAJO;TRAN_ALTO;;PESP_poco;;;;INDU_medio;;;;;BA
+69135;CAMPING;A;Capital Federal;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_poco;OPTI_mucho;;;;;;CUCH_poco;INST_poco;AA
+69142;OPTICA;A;Buenos Aires;VTA_MEDIO;TRAN_ALTO;;;OPTI_mucho;;;;;;;;MA
+69145;CAMPING;A;Buenos Aires;VTA_ALTO;TRAN_ALTO;CAMP_poco;;OPTI_mucho;;;;;;CUCH_poco;INST_medio;AA
+69147;OPTICA;A;Buenos Aires;VTA_BAJO;TRAN_BAJO;;;OPTI_medio;;;;;;;;BB
+69148;OPTICA;A;Buenos Aires;VTA_BAJO;TRAN_ALTO;CAMP_poco;;OPTI_mucho;;;;;;;;BA
+69192;CAMPING;A;Misiones;VTA_BAJO;TRAN_ALTO;CAMP_poco;;OPTI_medio;;;;;;CUCH_poco;INST_poco;BA
+69200;CAMPING;A;Capital Federal;VTA_BAJO;TRAN_BAJO;CAMP_medio;;;;;;;;;;BB
+69220;PESCA CAÑAS;B;Santa Cruz;VTA_MEDIO;TRAN_BAJO;;PESP_mucho;;PESC_mucho;PESR_mucho;;;;;;MB
+69252;CAMPING;A;Capital Federal;VTA_BAJO;TRAN_BAJO;CAMP_medio;PESP_poco;;PESC_poco;PESR_poco;INDU_poco;;;CUCH_poco;;BB
+69259;CAMPING;A;Buenos Aires;VTA_BAJO;TRAN_BAJO;CAMP_medio;;OPTI_medio;;;;;;;;BB
+69273;CAMPING;A;Capital Federal;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;;;;;;;;;;MA
+69277;INDUMENTARIA;A;Jujuy;VTA_ALTO;TRAN_ALTO;;PESP_mucho;;PESC_mucho;PESR_mucho;INDU_mucho;;;;;AA
+69297;INDUMENTARIA PESCA;A;Buenos Aires;VTA_BAJO;TRAN_BAJO;;PESP_poco;;PESC_medio;PESR_poco;;INDP_poco;;;;BB
+69310;CUCHILLERÍA;A;Capital Federal;VTA_MEDIO;TRAN_ALTO;CAMP_medio;PESP_poco;;PESC_medio;PESR_medio;INDU_mucho;;TIRO_medio;CUCH_poco;;MA
+69337;PESCA CAÑAS;A;Capital Federal;VTA_ALTO;TRAN_ALTO;CAMP_medio;PESP_mucho;OPTI_medio;PESC_mucho;PESR_medio;INDU_poco;INDP_medio;TIRO_poco;;INST_poco;AA
+69347;CAMPING;A;Santa Fe;VTA_ALTO;TRAN_ALTO;CAMP_poco;;OPTI_mucho;;;;;;;INST_poco;AA
+69383;OPTICA;A;Córdoba;VTA_MEDIO;TRAN_ALTO;CAMP_poco;PESP_poco;OPTI_mucho;;;;;;CUCH_poco;INST_poco;MA
+69392;CAMPING;A;Córdoba;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_medio;PESC_medio;;INDU_poco;;TIRO_medio;;;AA
+69476;OPTICA;B;Capital Federal;VTA_MEDIO;TRAN_ALTO;CAMP_medio;;OPTI_mucho;;;;;;;;MA
+69527;CAMPING;A;Santa Fe;VTA_ALTO;TRAN_ALTO;CAMP_medio;;;;;;INDP_mucho;;;;AA
+69555;CAMPING;A;Jujuy;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_medio;PESC_mucho;PESR_mucho;;INDP_medio;TIRO_medio;CUCH_poco;;AA
+69580;CAMPING;A;Buenos Aires;VTA_MEDIO;TRAN_BAJO;CAMP_poco;;OPTI_mucho;;;;;;;;MB
+69600;CAMPING;A;Capital Federal;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;;PESC_mucho;PESR_mucho;INDU_medio;INDP_mucho;TIRO_poco;;;AA
+69607;CAMPING;A;Formosa;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;PESP_medio;;;;INDU_medio;;TIRO_poco;;;MA
+69618;CAMPING;A;Buenos Aires;VTA_MEDIO;TRAN_ALTO;CAMP_medio;PESP_medio;;PESC_medio;PESR_mucho;;;;;;MA
+69664;CAMPING;A;Buenos Aires;VTA_BAJO;TRAN_BAJO;CAMP_mucho;PESP_poco;;;;INDU_poco;;;;;BB
+69689;OPTICA;A;Capital Federal;VTA_BAJO;TRAN_BAJO;;;OPTI_poco;;;;;;;;BB
+69713;CAMPING;A;Capital Federal;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_medio;OPTI_mucho;PESC_mucho;PESR_medio;INDU_mucho;INDP_medio;TIRO_medio;CUCH_poco;;AA
+69721;INDUMENTARIA PESCA;A;Buenos Aires;VTA_MEDIO;TRAN_ALTO;CAMP_poco;PESP_mucho;OPTI_poco;PESC_medio;;INDU_poco;INDP_medio;;;;MA
+69732;PESCA;A;Jujuy;VTA_BAJO;TRAN_BAJO;;PESP_mucho;;;;;;;;;BB
+69743;PESCA CAÑAS;A;Buenos Aires;VTA_MEDIO;TRAN_ALTO;CAMP_poco;PESP_poco;;PESC_mucho;PESR_mucho;;;;;;MA
+69750;CAMPING;A;Buenos Aires;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_medio;;PESC_medio;PESR_poco;INDU_poco;;TIRO_medio;CUCH_poco;;AA
+69799;CAMPING;A;Río Negro;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_medio;OPTI_medio;;;INDU_mucho;INDP_mucho;TIRO_mucho;;;AA
+69800;CUCHILLERÍA;A;Mendoza;VTA_MEDIO;TRAN_BAJO;;PESP_poco;;PESC_medio;;;INDP_mucho;;CUCH_poco;;MB
+69824;CAMPING;E;Tierra del Fuego;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;;OPTI_poco;;;;;;;;MA
+69829;CAMPING;A;Río Negro;VTA_MEDIO;TRAN_ALTO;CAMP_medio;PESP_medio;;PESC_mucho;PESR_medio;;;;;;MA
+69868;CAMPING;A;Buenos Aires;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_medio;OPTI_medio;PESC_medio;PESR_medio;INDU_medio;INDP_medio;;;;AA
+69871;PESCA CAÑAS;A;Santa Fe;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_poco;OPTI_mucho;PESC_mucho;PESR_medio;;INDP_medio;TIRO_poco;;;AA
+69876;INDUMENTARIA;A;Entre Ríos;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;;;;INDU_mucho;INDP_medio;TIRO_medio;;;AA
+69882;CAMPING;A;Buenos Aires;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_medio;OPTI_medio;PESC_mucho;PESR_medio;;INDP_poco;TIRO_medio;CUCH_poco;;AA
+69966;CAMPING;A;Chubut;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;PESP_mucho;;PESC_medio;PESR_medio;;INDP_medio;;;;MA
+69989;CAMPING;A;Buenos Aires;VTA_BAJO;TRAN_BAJO;CAMP_medio;PESP_poco;;PESC_poco;;;;;CUCH_poco;;BB
+70036;PESCA CAÑAS;A;Buenos Aires;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_mucho;PESC_mucho;PESR_mucho;;INDP_medio;TIRO_poco;CUCH_poco;;AA
+70064;CAMPING;A;Buenos Aires;VTA_BAJO;TRAN_BAJO;CAMP_poco;;OPTI_mucho;;;;;;;;BB
+70088;CAMPING;A;Santa Cruz;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_medio;OPTI_poco;PESC_medio;PESR_medio;INDU_mucho;;TIRO_medio;;;AA
+70161;CAMPING;B;Tucumán;VTA_MEDIO;TRAN_BAJO;CAMP_poco;PESP_medio;;PESC_medio;PESR_medio;;INDP_poco;;;;MB
+70178;PESCA;A;Río Negro;VTA_MEDIO;TRAN_ALTO;CAMP_poco;PESP_mucho;;PESC_medio;PESR_medio;INDU_poco;;;;;MA
+70192;CAMPING;A;Entre Ríos;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_medio;PESC_mucho;PESR_mucho;INDU_mucho;INDP_poco;TIRO_medio;CUCH_poco;;AA
+70278;CAMPING;A;La Pampa;VTA_BAJO;TRAN_BAJO;CAMP_poco;;OPTI_mucho;;;;;;;;BB
+70279;CAMPING;A;Buenos Aires;VTA_ALTO;TRAN_ALTO;CAMP_mucho;;OPTI_medio;PESC_medio;PESR_medio;INDU_poco;INDP_mucho;TIRO_mucho;;;AA
+70283;CAMPING;A;Buenos Aires;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_poco;PESC_mucho;PESR_mucho;INDU_medio;INDP_mucho;;;;AA
+70294;CAMPING;A;Chaco;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;PESP_mucho;;PESC_medio;PESR_poco;;;TIRO_medio;CUCH_poco;;MA
+70312;PESCA;A;Neuquén;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;;;;;;TIRO_poco;;;AA
+70344;CAMPING;A;Entre Ríos;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;PESP_poco;OPTI_medio;PESC_medio;PESR_poco;;;;;;MA
+70348;CAMPING;A;Buenos Aires;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;;PESC_mucho;PESR_mucho;;;TIRO_medio;;;AA
+70359;CAMPING;A;Río Negro;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_mucho;PESC_mucho;PESR_mucho;INDU_medio;INDP_mucho;TIRO_medio;CUCH_medio;;AA
+70361;CAMPING;A;Chubut;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_mucho;PESC_mucho;PESR_mucho;INDU_medio;;;CUCH_medio;;AA
+70372;CUCHILLERÍA;B;Santa Fe;VTA_MEDIO;TRAN_ALTO;CAMP_poco;;OPTI_mucho;;;;;;CUCH_poco;;MA
+70379;PESCA;A;Buenos Aires;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_mucho;PESC_mucho;PESR_mucho;;;TIRO_poco;;;AA
+70408;CAMPING;A;Salta;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_mucho;PESC_mucho;PESR_mucho;;;TIRO_medio;;;AA
+70427;CAMPING;B;Tucumán;VTA_BAJO;TRAN_ALTO;CAMP_poco;PESP_medio;;PESC_medio;PESR_medio;;;TIRO_poco;CUCH_poco;;BA
+70442;CAMPING;A;Capital Federal;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_medio;OPTI_medio;;PESR_poco;;INDP_mucho;TIRO_mucho;;;AA
+70448;CAMPING;B;Mendoza;VTA_BAJO;TRAN_ALTO;CAMP_poco;PESP_poco;;PESC_poco;PESR_poco;INDU_poco;;;CUCH_poco;;BA
+70471;CAMPING;A;San Luis;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;PESP_medio;;;;INDU_poco;;;;;MA
+70476;CUCHILLERÍA;A;Capital Federal;VTA_MEDIO;TRAN_ALTO;CAMP_poco;PESP_mucho;;;PESR_poco;;;TIRO_poco;CUCH_medio;;MA
+70483;CAMPING;A;Santa Fe;VTA_ALTO;TRAN_ALTO;CAMP_mucho;;OPTI_medio;;;INDU_poco;;;;;AA
+70494;CAMPING;A;Córdoba;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;;PESC_mucho;PESR_medio;INDU_medio;INDP_poco;TIRO_poco;CUCH_poco;;AA
+70495;PESCA;A;Córdoba;VTA_BAJO;TRAN_BAJO;;PESP_poco;;;;;;;;;BB
+70530;PESCA;A;Capital Federal;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_mucho;PESC_mucho;PESR_mucho;INDU_medio;INDP_medio;TIRO_mucho;CUCH_mucho;;AA
+70545;CUCHILLERÍA;A;Tucumán;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_medio;PESC_mucho;PESR_mucho;INDU_poco;INDP_medio;;CUCH_medio;;AA
+70556;PESCA;A;Chubut;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_mucho;PESC_mucho;PESR_mucho;;INDP_mucho;TIRO_medio;CUCH_poco;;AA
+70561;PESCA;B;Buenos Aires;VTA_BAJO;TRAN_BAJO;;PESP_poco;;;;;;;;;BB
+70579;OPTICA;A;Jujuy;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_medio;OPTI_mucho;PESC_mucho;PESR_medio;INDU_medio;INDP_mucho;TIRO_medio;CUCH_poco;;AA
+70590;CAMPING;A;Buenos Aires;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_medio;OPTI_mucho;PESC_mucho;PESR_mucho;INDU_medio;INDP_mucho;TIRO_poco;CUCH_poco;;AA
+70593;INDUMENTARIA PESCA;A;Santa Cruz;VTA_ALTO;TRAN_ALTO;CAMP_medio;PESP_mucho;OPTI_medio;PESC_mucho;PESR_mucho;;INDP_medio;TIRO_medio;CUCH_poco;;AA
+70603;CAMPING;A;Buenos Aires;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_medio;OPTI_medio;PESC_mucho;PESR_medio;INDU_poco;INDP_poco;;CUCH_poco;;AA
+70604;PESCA CAÑAS;A;Santa Fe;VTA_MEDIO;TRAN_ALTO;CAMP_poco;PESP_poco;;PESC_mucho;PESR_mucho;;;TIRO_poco;;;MA
+70616;CAMPING;A;Santa Fe;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;PESP_medio;;;;;INDP_medio;;;;MA
+70626;CAMPING;A;Santa Cruz;VTA_MEDIO;TRAN_ALTO;CAMP_medio;PESP_medio;OPTI_medio;PESC_medio;PESR_medio;;INDP_medio;;;;MA
+70676;CAMPING;A;Capital Federal;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_poco;OPTI_mucho;PESC_mucho;PESR_mucho;INDU_medio;INDP_medio;TIRO_poco;;INST_poco;AA
+70698;CAMPING;A;Santa Fe;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;PESP_mucho;;PESC_medio;PESR_medio;;;;;;MA
+70755;PESCA CAÑAS;A;Buenos Aires;VTA_BAJO;TRAN_BAJO;;;;PESC_medio;;;;;;;BB
+70780;PESCA CAÑAS;A;Córdoba;VTA_ALTO;TRAN_ALTO;CAMP_medio;PESP_mucho;OPTI_poco;PESC_mucho;PESR_medio;INDU_medio;INDP_mucho;;;;AA
+70819;CAMPING;A;La Pampa;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;;PESC_medio;PESR_medio;;INDP_mucho;TIRO_poco;;INST_poco;AA
+70821;CAMPING;A;Buenos Aires;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;PESP_medio;;;PESR_poco;INDU_poco;;;;;MA
+70830;CAMPING;A;Capital Federal;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;PESP_medio;;;;INDU_medio;;TIRO_poco;CUCH_poco;;MA
+70833;CAMPING;A;Buenos Aires;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_mucho;PESC_mucho;PESR_poco;INDU_medio;;;CUCH_poco;;AA
+70838;CAMPING;A;La Rioja;VTA_ALTO;TRAN_ALTO;CAMP_medio;PESP_mucho;;PESC_mucho;PESR_mucho;;;TIRO_poco;;;AA
+70839;CAMPING;A;Santa Fe;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_poco;PESC_mucho;PESR_mucho;INDU_medio;INDP_medio;TIRO_poco;;;AA
+70861;OPTICA;A;Buenos Aires;VTA_BAJO;TRAN_ALTO;;;OPTI_medio;;;;;;;;BA
+70863;INDUMENTARIA;A;Buenos Aires;VTA_BAJO;TRAN_ALTO;CAMP_poco;;;;;INDU_medio;;;;;BA
+70870;CAMPING;A;Mendoza;VTA_BAJO;TRAN_BAJO;CAMP_poco;;;;;;;;;;BB
+70899;CAMPING;A;Buenos Aires;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_poco;PESC_mucho;PESR_mucho;INDU_medio;;;CUCH_poco;;AA
+70901;INDUMENTARIA PESCA;A;Buenos Aires;VTA_BAJO;TRAN_BAJO;;PESP_poco;;PESC_medio;PESR_medio;;INDP_poco;;;;BB
+70908;CAMPING;A;San Luis;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_medio;OPTI_poco;;;INDU_poco;INDP_poco;TIRO_poco;CUCH_medio;INST_poco;AA
+70920;PESCA CAÑAS;A;Buenos Aires;VTA_MEDIO;TRAN_ALTO;CAMP_medio;PESP_poco;;PESC_mucho;PESR_medio;;;;;;MA
+70929;OPTICA;A;Capital Federal;VTA_BAJO;TRAN_BAJO;;;OPTI_medio;;;;;;;;BB
+70941;PESCA;A;Capital Federal;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;;PESC_mucho;PESR_medio;INDU_medio;INDP_mucho;TIRO_medio;;;AA
+70965;CUCHILLERÍA;A;Neuquén;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_mucho;PESC_mucho;PESR_mucho;INDU_mucho;INDP_mucho;TIRO_medio;CUCH_mucho;;AA
+70968;CAMPING;A;Buenos Aires;VTA_BAJO;TRAN_BAJO;CAMP_poco;PESP_poco;;PESC_medio;PESR_medio;;INDP_poco;;;;BB
+70996;PESCA;A;Tucumán;VTA_MEDIO;TRAN_ALTO;CAMP_medio;PESP_mucho;;;;;;;;;MA
+71006;CAMPING;A;Buenos Aires;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_mucho;PESC_mucho;PESR_mucho;INDU_mucho;INDP_mucho;TIRO_medio;CUCH_poco;;AA
+71007;OPTICA;A;Chubut;VTA_BAJO;TRAN_BAJO;;;OPTI_mucho;;;;;;;;BB
+71018;CAMPING;A;Santa Cruz;VTA_ALTO;TRAN_ALTO;CAMP_medio;PESP_mucho;OPTI_poco;PESC_mucho;PESR_mucho;;INDP_mucho;;;;AA
+71020;INDUMENTARIA PESCA;A;Salta;VTA_ALTO;TRAN_ALTO;CAMP_mucho;;;;PESR_medio;INDU_mucho;INDP_medio;;;;AA
+71023;CAMPING;A;Chubut;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_poco;;PESC_medio;;;;;;;AA
+71025;CAMPING;A;Capital Federal;VTA_ALTO;TRAN_ALTO;CAMP_mucho;;OPTI_poco;;;INDU_medio;INDP_medio;;CUCH_poco;;AA
+71033;CAMPING;A;Buenos Aires;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_poco;;PESC_mucho;PESR_mucho;;INDP_medio;;;;AA
+71044;CAMPING;A;Buenos Aires;VTA_MEDIO;TRAN_BAJO;CAMP_mucho;;;;;;;;;;MB
+71049;CAMPING;A;Buenos Aires;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_medio;PESC_medio;PESR_mucho;INDU_poco;INDP_medio;TIRO_poco;CUCH_poco;;AA
+71080;CAMPING;A;Neuquén;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_poco;PESC_medio;PESR_poco;;INDP_medio;;;;AA
+71099;CAMPING;A;Buenos Aires;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_medio;OPTI_medio;PESC_poco;PESR_mucho;INDU_medio;;;;;AA
+71106;CAMPING;A;Jujuy;VTA_MEDIO;TRAN_BAJO;CAMP_medio;PESP_mucho;;;;;INDP_poco;;;;MB
+71118;CAMPING;A;Chubut;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_medio;PESC_medio;PESR_mucho;INDU_mucho;INDP_mucho;TIRO_mucho;CUCH_poco;;AA
+71134;CAMPING;A;Buenos Aires;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;PESP_medio;OPTI_poco;PESC_poco;;;INDP_medio;TIRO_poco;;;MA
+71137;CAMPING;B;Entre Ríos;VTA_BAJO;TRAN_BAJO;CAMP_poco;PESP_medio;;PESC_poco;PESR_poco;INDU_poco;;;;;BB
+71146;CAMPING;A;Capital Federal;VTA_MEDIO;TRAN_BAJO;CAMP_mucho;;;;;;;;;;MB
+71164;CAMPING;A;Buenos Aires;VTA_BAJO;TRAN_ALTO;CAMP_poco;;OPTI_mucho;;;;;;;;BA
+71167;CAMPING;A;Córdoba;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_mucho;PESC_mucho;PESR_mucho;INDU_poco;;TIRO_medio;;;AA
+71179;CAMPING;A;Capital Federal;VTA_BAJO;TRAN_BAJO;CAMP_poco;;OPTI_medio;;;;;;;;BB
+71186;INDUMENTARIA PESCA;A;Buenos Aires;VTA_ALTO;TRAN_ALTO;;PESP_poco;;PESC_mucho;PESR_mucho;;INDP_medio;;;;AA
+71193;CAMPING;B;Buenos Aires;VTA_BAJO;TRAN_BAJO;CAMP_poco;PESP_poco;;;;INDU_poco;;;;;BB
+71194;CAMPING;A;Río Negro;VTA_MEDIO;TRAN_BAJO;CAMP_poco;PESP_mucho;;PESC_medio;;;;;;;MB
+71199;OPTICA;B;Santa Fe;VTA_BAJO;TRAN_BAJO;;PESP_medio;OPTI_medio;PESC_medio;PESR_poco;;;;;;BB
+71201;CAMPING;A;Buenos Aires;VTA_MEDIO;TRAN_BAJO;;;OPTI_mucho;;;;;;;;MB
+71206;CAMPING;A;Mendoza;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;;PESC_mucho;PESR_medio;INDU_mucho;INDP_poco;TIRO_poco;CUCH_medio;;AA
+71210;PESCA CAÑAS;B;Buenos Aires;VTA_MEDIO;TRAN_BAJO;;PESP_medio;;PESC_medio;;;;;;;MB
+71213;CAMPING;A;Santa Fe;VTA_ALTO;TRAN_ALTO;CAMP_mucho;;;;;;;;;;AA
+71214;CAMPING;A;Entre Ríos;VTA_BAJO;TRAN_BAJO;CAMP_medio;PESP_poco;;;;;;;;;BB
+71222;OPTICA;A;Capital Federal;VTA_ALTO;TRAN_ALTO;CAMP_mucho;;OPTI_mucho;;;;;;;;AA
+71226;INDUMENTARIA PESCA;A;Capital Federal;VTA_ALTO;TRAN_ALTO;;PESP_poco;;;;;INDP_mucho;;;;AA
+71235;CAMPING;A;Chaco;VTA_BAJO;TRAN_BAJO;CAMP_poco;;OPTI_poco;;;;;;;;BB
+71236;OPTICA;A;La Rioja;VTA_BAJO;TRAN_BAJO;;;OPTI_medio;;;;;;;;BB
+71238;CAMPING;A;Córdoba;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;;OPTI_poco;;;INDU_poco;;TIRO_poco;;;MA
+71241;PESCA CAÑAS;B;Buenos Aires;VTA_BAJO;TRAN_BAJO;;;;PESC_mucho;PESR_medio;;;;;;BB
+71242;PESCA;A;Santa Fe;VTA_BAJO;TRAN_BAJO;;PESP_poco;;;PESR_poco;;;;;;BB
+71247;CAMPING;B;Buenos Aires;VTA_BAJO;TRAN_BAJO;CAMP_medio;PESP_poco;;PESC_poco;PESR_poco;;;;;;BB
+71257;OPTICA;A;Córdoba;VTA_MEDIO;TRAN_BAJO;;;OPTI_mucho;;;;;;;;MB
+71258;INDUMENTARIA PESCA;A;Córdoba;VTA_MEDIO;TRAN_BAJO;;PESP_medio;OPTI_poco;PESC_mucho;PESR_medio;;INDP_poco;TIRO_medio;;;MB
+71261;INDUMENTARIA PESCA;B;Buenos Aires;VTA_BAJO;TRAN_BAJO;;;;;;;INDP_medio;;;;BB
+71270;PESCA;A;Neuquén;VTA_MEDIO;TRAN_ALTO;CAMP_poco;PESP_mucho;;;PESR_medio;;INDP_mucho;TIRO_poco;;;MA
+71278;OPTICA;A;Capital Federal;VTA_BAJO;TRAN_BAJO;;;OPTI_medio;;;;;;;;BB
+71279;CAMPING;A;Capital Federal;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_medio;;PESC_mucho;PESR_mucho;INDU_medio;;;;;AA
+71282;CAMPING;A;Capital Federal;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;;;;;INDU_medio;INDP_medio;;;;MA
+71286;CAMPING;A;Buenos Aires;VTA_BAJO;TRAN_ALTO;CAMP_medio;;;;;;;;;;BA
+71290;CAMPING;A;Capital Federal;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_poco;PESC_mucho;PESR_mucho;INDU_medio;INDP_mucho;TIRO_poco;;;AA
+71291;CAMPING;A;Capital Federal;VTA_ALTO;TRAN_ALTO;CAMP_mucho;;OPTI_mucho;;;;;TIRO_poco;CUCH_poco;;AA
+71292;CAMPING;A;Capital Federal;VTA_MEDIO;TRAN_BAJO;CAMP_mucho;;;;;;;;;;MB
+71296;OPTICA;A;Capital Federal;VTA_MEDIO;TRAN_ALTO;;;OPTI_mucho;;;;;;;;MA
+71297;PESCA;B;Buenos Aires;VTA_BAJO;TRAN_BAJO;;PESP_medio;;;;;;;;;BB
+71300;PESCA CAÑAS;A;Tucumán;VTA_MEDIO;TRAN_ALTO;;PESP_medio;;PESC_medio;PESR_medio;;;;;;MA
+71304;PESCA CAÑAS;B;Capital Federal;VTA_BAJO;TRAN_BAJO;;;;PESC_poco;PESR_poco;;;;;;BB
+71316;INDUMENTARIA;B;Córdoba;VTA_BAJO;TRAN_BAJO;;PESP_medio;;PESC_medio;PESR_poco;INDU_poco;;;;;BB
+71321;CAMPING;A;Mendoza;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_poco;PESC_mucho;PESR_medio;INDU_poco;INDP_mucho;;CUCH_poco;;AA
+71322;CAMPING;B;Capital Federal;VTA_MEDIO;TRAN_ALTO;CAMP_medio;PESP_mucho;;PESC_medio;PESR_poco;INDU_poco;;;;;MA
+71323;PESCA;A;Capital Federal;VTA_MEDIO;TRAN_BAJO;;PESP_mucho;;;;;;;;;MB
+71328;PESCA;A;Buenos Aires;VTA_BAJO;TRAN_BAJO;;PESP_poco;;;;;;;;;BB
+71329;CAMPING;B;Río Negro;VTA_MEDIO;TRAN_BAJO;CAMP_medio;PESP_mucho;;PESC_mucho;PESR_medio;;;;;;MB
+71331;CAMPING;A;Capital Federal;VTA_ALTO;TRAN_ALTO;CAMP_mucho;;OPTI_medio;;;INDU_mucho;INDP_poco;TIRO_mucho;CUCH_poco;INST_medio;AA
+71333;OPTICA;A;Buenos Aires;VTA_BAJO;TRAN_BAJO;;;OPTI_medio;;;;;;;;BB
+71351;CAMPING;A;Neuquén;VTA_BAJO;TRAN_BAJO;CAMP_poco;;OPTI_poco;;;;;TIRO_poco;;;BB
+71355;OPTICA;B;Córdoba;VTA_MEDIO;TRAN_ALTO;;PESP_medio;OPTI_mucho;;;;;;;;MA
+71368;CAMPING;B;Chubut;VTA_ALTO;TRAN_ALTO;CAMP_medio;PESP_mucho;;PESC_mucho;PESR_medio;;;;;;AA
+71369;INDUMENTARIA PESCA;A;Santa Fe;VTA_MEDIO;TRAN_ALTO;;PESP_mucho;;PESC_medio;;INDU_poco;INDP_medio;;;;MA
+71372;CAMPING;B;Entre Ríos;VTA_MEDIO;TRAN_ALTO;CAMP_medio;PESP_medio;OPTI_poco;;PESR_medio;;INDP_poco;TIRO_medio;CUCH_poco;;MA
+71373;CAMPING;A;Capital Federal;VTA_BAJO;TRAN_ALTO;CAMP_mucho;;;;;;;;;;BA
+71374;CAMPING;A;Buenos Aires;VTA_BAJO;TRAN_BAJO;CAMP_poco;PESP_poco;OPTI_medio;;;;INDP_poco;TIRO_poco;CUCH_poco;;BB
+71378;CAMPING;A;Capital Federal;VTA_ALTO;TRAN_ALTO;CAMP_mucho;;;;;INDU_medio;INDP_poco;TIRO_poco;;;AA
+71383;CAMPING;B;Buenos Aires;VTA_MEDIO;TRAN_ALTO;CAMP_medio;PESP_medio;;PESC_medio;PESR_medio;;;TIRO_poco;;;MA
+71389;PESCA CAÑAS;A;Córdoba;VTA_MEDIO;TRAN_ALTO;CAMP_medio;PESP_medio;OPTI_poco;PESC_medio;PESR_medio;;;TIRO_medio;;;MA
+71390;INDUMENTARIA;A;Córdoba;VTA_MEDIO;TRAN_ALTO;;PESP_medio;OPTI_medio;PESC_mucho;;INDU_medio;;TIRO_medio;;;MA
+71398;PESCA CAÑAS;A;Buenos Aires;VTA_BAJO;TRAN_ALTO;;PESP_medio;;PESC_poco;PESR_medio;;;;;;BA
+71401;CAMPING;B;Chubut;VTA_ALTO;TRAN_ALTO;CAMP_poco;PESP_mucho;;PESC_mucho;PESR_mucho;;;TIRO_poco;;;AA
+71409;CAMPING;B;Santa Fe;VTA_MEDIO;TRAN_ALTO;CAMP_medio;PESP_poco;OPTI_mucho;;;;;;;INST_poco;MA
+71412;CAMPING;A;Buenos Aires;VTA_BAJO;TRAN_BAJO;CAMP_medio;;;;;;;;;;BB
+71417;CAMPING;A;Capital Federal;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_poco;OPTI_poco;PESC_medio;PESR_medio;;;;;;AA
+71420;CAMPING;B;Santa Fe;VTA_BAJO;TRAN_BAJO;CAMP_poco;PESP_poco;;PESC_poco;PESR_poco;INDU_poco;;;;INST_poco;BB
+71425;OPTICA;B;Entre Ríos;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_medio;;;;;TIRO_poco;;;MA
+71428;CAMPING;A;Catamarca;VTA_MEDIO;TRAN_BAJO;CAMP_poco;;OPTI_mucho;;;;;;;;MB
+71430;CAMPING;B;Buenos Aires;VTA_BAJO;TRAN_ALTO;CAMP_medio;;OPTI_poco;;;;;;;;BA
+71431;OPTICA;A;Formosa;VTA_BAJO;TRAN_ALTO;;;OPTI_medio;;;;;;;;BA
+71434;INDUMENTARIA;A;Buenos Aires;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;;PESC_mucho;PESR_mucho;INDU_mucho;INDP_mucho;TIRO_medio;;;AA
+71436;PESCA CAÑAS;A;Santiago del Estero;VTA_ALTO;TRAN_ALTO;CAMP_mucho;;;PESC_mucho;PESR_medio;;INDP_mucho;TIRO_medio;;;AA
+71442;OPTICA;A;Buenos Aires;VTA_BAJO;TRAN_BAJO;;;OPTI_medio;;;;;;;;BB
+71444;CAMPING;A;Catamarca;VTA_BAJO;TRAN_BAJO;CAMP_poco;;;;;;INDP_medio;;;;BB
+71450;OPTICA;A;Santa Fe;VTA_BAJO;TRAN_BAJO;;;OPTI_medio;;;;;;;;BB
+71454;CAMPING;A;Salta;VTA_BAJO;TRAN_BAJO;CAMP_poco;;;;;;;;;;BB
+71468;CAMPING;B;Córdoba;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;;;PESC_poco;PESR_poco;;INDP_medio;;;;MA
+71473;CAMPING;B;Neuquén;VTA_MEDIO;TRAN_BAJO;CAMP_medio;PESP_medio;OPTI_poco;;;INDU_poco;;TIRO_poco;CUCH_poco;INST_poco;MB
+71476;CAMPING;A;Entre Ríos;VTA_BAJO;TRAN_BAJO;CAMP_mucho;;;;;;;;;;BB
+71483;CAMPING;A;Capital Federal;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_poco;;;;;;TIRO_poco;CUCH_poco;;AA
+71486;CAMPING;A;Buenos Aires;VTA_BAJO;TRAN_BAJO;CAMP_poco;;OPTI_poco;;;;;;;INST_poco;BB
+71490;CAMPING;A;Buenos Aires;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;PESP_poco;;;;INDU_poco;;;CUCH_poco;;MA
+71491;CAMPING;A;Buenos Aires;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;;;;;;;TIRO_poco;;;MA
+71497;OPTICA;A;Buenos Aires;VTA_BAJO;TRAN_ALTO;;;OPTI_medio;;;;;;;;BA
+71503;INDUMENTARIA;A;La Pampa;VTA_BAJO;TRAN_BAJO;;;;;;INDU_medio;;;;;BB
+71504;PESCA CAÑAS;B;Entre Ríos;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;;PESC_mucho;PESR_poco;INDU_medio;INDP_poco;TIRO_medio;;;AA
+71510;CAMPING;A;Buenos Aires;VTA_ALTO;TRAN_BAJO;CAMP_mucho;PESP_mucho;;PESC_medio;PESR_medio;INDU_poco;INDP_mucho;;;;AB
+71520;INDUMENTARIA PESCA;A;Buenos Aires;VTA_BAJO;TRAN_ALTO;;PESP_poco;;;;;INDP_medio;;;;BA
+71527;CAMPING;A;Capital Federal;VTA_MEDIO;TRAN_ALTO;CAMP_medio;;OPTI_mucho;;;;;;;;MA
+71534;CUCHILLERÍA;B;Santa Fe;VTA_MEDIO;TRAN_ALTO;;PESP_medio;;PESC_medio;PESR_medio;INDU_poco;INDP_poco;;CUCH_poco;;MA
+71538;CAMPING;A;Buenos Aires;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_medio;OPTI_mucho;PESC_mucho;PESR_medio;INDU_poco;;TIRO_medio;;;AA
+71543;CAMPING;B;Jujuy;VTA_BAJO;TRAN_ALTO;CAMP_poco;PESP_medio;;PESC_poco;PESR_poco;;;;;;BA
+71545;OPTICA;B;Buenos Aires;VTA_BAJO;TRAN_BAJO;;;OPTI_medio;;;;;;;;BB
+71553;CAMPING;A;Río Negro;VTA_BAJO;TRAN_BAJO;CAMP_mucho;PESP_poco;;;;;;TIRO_poco;;;BB
+71558;PESCA;B;Chubut;VTA_MEDIO;TRAN_BAJO;;PESP_mucho;;;;;;;;;MB
+71560;CAMPING;A;Santa Fe;VTA_ALTO;TRAN_ALTO;CAMP_mucho;;OPTI_poco;;;;;;CUCH_poco;;AA
+71566;INDUMENTARIA;B;Jujuy;VTA_BAJO;TRAN_ALTO;;PESP_medio;;;;INDU_poco;;;;;BA
+71567;CAMPING;A;Buenos Aires;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;;OPTI_poco;;;INDU_mucho;;;;;MA
+71570;CAMPING;A;Buenos Aires;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;;;;;INDU_medio;;TIRO_poco;CUCH_poco;;MA
+71579;PESCA CAÑAS;B;Buenos Aires;VTA_BAJO;TRAN_BAJO;;PESP_poco;;PESC_poco;PESR_poco;;;;;;BB
+71580;CAMPING;A;Buenos Aires;VTA_MEDIO;TRAN_ALTO;CAMP_medio;;OPTI_medio;;;;;;;;MA
+71581;INDUMENTARIA;B;Buenos Aires;VTA_MEDIO;TRAN_ALTO;CAMP_poco;PESP_medio;;PESC_medio;PESR_poco;INDU_poco;INDP_poco;;;;MA
+71585;CAMPING;A;Río Negro;VTA_ALTO;TRAN_ALTO;CAMP_mucho;;OPTI_mucho;;;INDU_mucho;;TIRO_mucho;CUCH_poco;INST_medio;AA
+71594;PESCA;A;Neuquén;VTA_ALTO;TRAN_ALTO;;PESP_mucho;;PESC_mucho;PESR_mucho;;;;;;AA
+71596;CAMPING;B;Santa Cruz;VTA_ALTO;TRAN_BAJO;CAMP_medio;PESP_medio;OPTI_medio;PESC_medio;;INDU_medio;INDP_mucho;;CUCH_poco;;AB
+71597;CAMPING;B;Capital Federal;VTA_BAJO;TRAN_BAJO;CAMP_poco;;OPTI_medio;;;;;;;;BB
+71598;CAMPING;A;Capital Federal;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_medio;OPTI_poco;;PESR_poco;INDU_poco;INDP_mucho;;CUCH_poco;;AA
+71599;CAMPING;A;Santa Fe;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;PESP_medio;;PESC_poco;;INDU_medio;INDP_poco;TIRO_medio;CUCH_poco;;MA
+71613;INDUMENTARIA;A;Santa Cruz;VTA_ALTO;TRAN_ALTO;CAMP_medio;PESP_mucho;OPTI_medio;PESC_mucho;PESR_mucho;INDU_medio;INDP_mucho;;;;AA
+71615;CAMPING;A;Corrientes;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;;;;;INDU_medio;;TIRO_medio;;;MA
+71618;CAMPING;A;Santa Fe;VTA_MEDIO;TRAN_BAJO;CAMP_poco;PESP_medio;;PESC_medio;PESR_poco;;INDP_poco;;;;MB
+71631;CAMPING;A;La Rioja;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_poco;PESC_medio;PESR_medio;INDU_poco;INDP_poco;TIRO_poco;CUCH_poco;;AA
+71633;CAMPING;A;Capital Federal;VTA_MEDIO;TRAN_ALTO;CAMP_poco;PESP_medio;OPTI_poco;PESC_poco;;;INDP_poco;TIRO_mucho;;;MA
+71641;CAMPING;B;Capital Federal;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;;PESC_mucho;PESR_mucho;INDU_medio;INDP_poco;TIRO_mucho;CUCH_poco;;AA
+71649;CAMPING;A;Chaco;VTA_ALTO;TRAN_ALTO;CAMP_mucho;;;;;INDU_medio;INDP_medio;TIRO_mucho;;;AA
+71651;PESCA CAÑAS;A;Buenos Aires;VTA_BAJO;TRAN_BAJO;;PESP_poco;;PESC_medio;PESR_medio;;;;;;BB
+71654;PESCA CAÑAS;B;Santa Fe;VTA_BAJO;TRAN_BAJO;;PESP_poco;;PESC_poco;PESR_poco;;;;;;BB
+71657;CAMPING;A;Buenos Aires;VTA_MEDIO;TRAN_ALTO;CAMP_medio;;;;;INDU_mucho;;;;;MA
+71662;CAMPING;A;Tucumán;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_mucho;PESC_mucho;PESR_mucho;;INDP_poco;TIRO_mucho;CUCH_poco;;AA
+71666;CAMPING;A;Buenos Aires;VTA_BAJO;TRAN_BAJO;CAMP_mucho;;;;;;;;;;BB
+71668;CAMPING;A;Capital Federal;VTA_MEDIO;TRAN_BAJO;CAMP_mucho;;;;;;;;;;MB
+71673;PESCA;A;Capital Federal;VTA_MEDIO;TRAN_ALTO;;PESP_mucho;;PESC_medio;PESR_medio;;;;CUCH_poco;;MA
+71674;CAMPING;B;Neuquén;VTA_MEDIO;TRAN_BAJO;CAMP_mucho;PESP_medio;;;;;;;;;MB
+71675;CAMPING;A;Chaco;VTA_BAJO;TRAN_BAJO;CAMP_poco;;;;;;;;;;BB
+71676;OPTICA;A;Santa Cruz;VTA_MEDIO;TRAN_ALTO;CAMP_medio;;OPTI_medio;;;;INDP_medio;;;;MA
+71685;INDUMENTARIA PESCA;A;Santa Fe;VTA_BAJO;TRAN_BAJO;;;;;;;INDP_medio;;;;BB
+71687;CAMPING;A;Capital Federal;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;;;;;;;;;;MA
+71689;CAMPING;B;Santa Fe;VTA_BAJO;TRAN_ALTO;CAMP_medio;PESP_poco;OPTI_poco;PESC_poco;PESR_poco;;INDP_poco;TIRO_poco;CUCH_poco;;BA
+71690;CAMPING;A;Córdoba;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_poco;OPTI_poco;PESC_medio;PESR_medio;INDU_medio;;TIRO_poco;CUCH_medio;INST_poco;AA
+71696;OPTICA;A;Capital Federal;VTA_BAJO;TRAN_BAJO;;;OPTI_poco;;;;;;;;BB
+71697;CAMPING;B;Tierra del Fuego;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_mucho;PESC_mucho;PESR_mucho;INDU_poco;INDP_mucho;TIRO_mucho;CUCH_medio;;AA
+71699;PESCA CAÑAS;A;Chaco;VTA_ALTO;TRAN_BAJO;;PESP_mucho;;PESC_mucho;PESR_mucho;;;;;;AB
+71702;CAMPING;A;Formosa;VTA_MEDIO;TRAN_ALTO;CAMP_medio;PESP_medio;;;;INDU_poco;;;;;MA
+71704;INDUMENTARIA PESCA;A;Buenos Aires;VTA_BAJO;TRAN_BAJO;;;;;;;INDP_medio;;;;BB
+71707;CAMPING;A;Santa Cruz;VTA_MEDIO;TRAN_BAJO;CAMP_poco;PESP_medio;;PESC_medio;PESR_poco;;;;;;MB
+71708;CAMPING;B;Santa Cruz;VTA_ALTO;TRAN_BAJO;CAMP_poco;PESP_mucho;;PESC_medio;PESR_medio;;INDP_mucho;;;;AB
+71710;CAMPING;A;Capital Federal;VTA_ALTO;TRAN_ALTO;CAMP_mucho;;OPTI_poco;PESC_poco;PESR_poco;INDU_medio;;;;;AA
+71712;OPTICA;B;Capital Federal;VTA_BAJO;TRAN_BAJO;;;OPTI_poco;;PESR_poco;;;;;;BB
+71714;PESCA CAÑAS;A;Buenos Aires;VTA_MEDIO;TRAN_ALTO;;;;PESC_mucho;PESR_medio;;;;;;MA
+71715;CAMPING;A;Neuquén;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_medio;PESC_mucho;PESR_medio;;INDP_medio;TIRO_poco;CUCH_medio;;AA
+71719;PESCA CAÑAS;A;Buenos Aires;VTA_BAJO;TRAN_ALTO;;PESP_poco;;PESC_medio;PESR_medio;;;;;;BA
+71721;OPTICA;B;Mendoza;VTA_BAJO;TRAN_BAJO;;;OPTI_poco;;;;;;;;BB
+71727;PESCA CAÑAS;A;Jujuy;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;;PESC_mucho;PESR_medio;INDU_medio;;;;;AA
+71728;CAMPING;A;Capital Federal;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_mucho;PESC_mucho;PESR_mucho;INDU_medio;INDP_mucho;TIRO_medio;CUCH_poco;;AA
+71730;PESCA CAÑAS;A;Salta;VTA_BAJO;TRAN_BAJO;;PESP_medio;;PESC_poco;PESR_poco;;;;;;BB
+71732;CAMPING;A;Buenos Aires;VTA_ALTO;TRAN_ALTO;CAMP_mucho;;OPTI_medio;PESC_poco;;INDU_mucho;INDP_poco;TIRO_poco;;;AA
+71733;CAMPING;A;Capital Federal;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_poco;;PESC_poco;PESR_poco;;INDP_medio;;;;AA
+71734;CAMPING;B;Buenos Aires;VTA_ALTO;TRAN_ALTO;CAMP_medio;PESP_poco;OPTI_poco;PESC_mucho;PESR_mucho;INDU_medio;;TIRO_poco;;;AA
+71742;CAMPING;A;Buenos Aires;VTA_BAJO;TRAN_BAJO;;;OPTI_medio;;;;;;;;BB
+71747;CAMPING;A;Buenos Aires;VTA_MEDIO;TRAN_ALTO;CAMP_medio;PESP_poco;OPTI_medio;PESC_medio;PESR_medio;;INDP_poco;TIRO_medio;;;MA
+71748;OPTICA;A;Capital Federal;VTA_MEDIO;TRAN_ALTO;;;OPTI_mucho;;;;;;;;MA
+71752;CAMPING;A;Capital Federal;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_mucho;PESC_mucho;PESR_mucho;INDU_poco;INDP_mucho;TIRO_mucho;CUCH_poco;;AA
+71754;INDUMENTARIA;A;Buenos Aires;VTA_MEDIO;TRAN_ALTO;;;OPTI_mucho;PESC_poco;PESR_poco;INDU_poco;;;;;MA
+71763;PESCA REELS;A;Buenos Aires;VTA_ALTO;TRAN_ALTO;;PESP_mucho;;PESC_mucho;PESR_poco;;INDP_medio;;;;AA
+71764;CAMPING;B;San Luis;VTA_BAJO;TRAN_ALTO;CAMP_poco;PESP_medio;;PESC_medio;PESR_poco;;;;;;BA
+71768;OPTICA;A;Capital Federal;VTA_BAJO;TRAN_BAJO;;;OPTI_poco;;;;;;;;BB
+71769;CAMPING;A;Córdoba;VTA_MEDIO;TRAN_BAJO;CAMP_mucho;;;;;INDU_medio;;;;;MB
+71771;OPTICA;A;Capital Federal;VTA_ALTO;TRAN_ALTO;;;OPTI_mucho;;;;;;;;AA
+71772;CAMPING;A;Buenos Aires;VTA_ALTO;TRAN_ALTO;CAMP_medio;PESP_poco;;PESC_mucho;PESR_mucho;;INDP_medio;TIRO_medio;;;AA
+71773;PESCA CAÑAS;B;Buenos Aires;VTA_MEDIO;TRAN_BAJO;;PESP_medio;;PESC_medio;PESR_medio;;;;;;MB
+71775;CAMPING;B;Capital Federal;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;PESP_poco;OPTI_medio;PESC_poco;;;;TIRO_medio;;;MA
+71776;CAMPING;B;Jujuy;VTA_BAJO;TRAN_BAJO;CAMP_poco;PESP_poco;;;PESR_medio;;;;CUCH_poco;;BB
+71777;CAMPING;A;Córdoba;VTA_MEDIO;TRAN_BAJO;CAMP_mucho;;;;;;;;;;MB
+71780;INDUMENTARIA PESCA;B;Neuquén;VTA_ALTO;TRAN_ALTO;;PESP_medio;;;PESR_medio;;INDP_mucho;;;;AA
+71783;CAMPING;A;Capital Federal;VTA_BAJO;TRAN_BAJO;CAMP_medio;;;;;;;;;;BB
+71784;CAMPING;B;Santa Fe;VTA_BAJO;TRAN_ALTO;CAMP_poco;PESP_medio;;;;;INDP_poco;;;;BA
+71786;PESCA;A;Misiones;VTA_BAJO;TRAN_BAJO;;PESP_medio;;;;;;;;;BB
+71787;INDUMENTARIA;A;Buenos Aires;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_medio;PESC_mucho;PESR_mucho;INDU_medio;INDP_mucho;TIRO_mucho;CUCH_medio;;AA
+71788;INDUMENTARIA PESCA;A;Mendoza;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;;PESC_medio;PESR_mucho;;INDP_mucho;TIRO_poco;CUCH_poco;;AA
+71789;CAMPING;A;San Luis;VTA_MEDIO;TRAN_ALTO;CAMP_medio;PESP_medio;;PESC_medio;PESR_medio;;;;;;MA
+71790;CAMPING;A;Córdoba;VTA_BAJO;TRAN_BAJO;CAMP_mucho;;;;;;;;;;BB
+71791;CAMPING;A;Santa Cruz;VTA_MEDIO;TRAN_ALTO;CAMP_poco;PESP_medio;;PESC_mucho;PESR_mucho;;;;;;MA
+71792;CAMPING;A;Buenos Aires;VTA_MEDIO;TRAN_BAJO;CAMP_medio;;OPTI_mucho;;;;;;;;MB
+71794;CAMPING;A;Entre Ríos;VTA_MEDIO;TRAN_ALTO;CAMP_poco;PESP_poco;OPTI_poco;PESC_mucho;PESR_medio;INDU_medio;INDP_poco;;;;MA
+71796;CAMPING;A;Capital Federal;VTA_MEDIO;TRAN_ALTO;CAMP_mucho;;;;;;;;;;MA
+71797;CAMPING;B;Buenos Aires;VTA_ALTO;TRAN_ALTO;CAMP_mucho;PESP_mucho;OPTI_medio;PESC_medio;PESR_medio;INDU_poco;INDP_poco;TIRO_poco;;INST_poco;AA
+71798;PESCA CAÑAS;B;Capital Federal;VTA_MEDIO;TRAN_ALTO;;PESP_medio;;PESC_medio;PESR_medio;;;;;;MA
+71800;CAMPING;A;Córdoba;VTA_MEDIO;TRAN_BAJO;CAMP_poco;PESP_medio;;PESC_medio;PESR_medio;INDU_poco;;;;;MB
+71801;CAMPING;B;Buenos Aires;VTA_BAJO;TRAN_ALTO;CAMP_poco;PESP_poco;;PESC_medio;PESR_poco;;;;;;BA
+71803;CAMPING;A;Buenos Aires;VTA_BAJO;TRAN_BAJO;CAMP_medio;;OPTI_medio;;;;;;;;BB
+71804;CAMPING;A;Salta;VTA_BAJO;TRAN_BAJO;CAMP_poco;PESP_medio;;;;INDU_poco;;TIRO_poco;;;BB
+71805;OPTICA;A;Buenos Aires;VTA_MEDIO;TRAN_BAJO;;;OPTI_mucho;;;;;;;;MB
